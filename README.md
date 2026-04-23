@@ -75,6 +75,8 @@ The goal is to enhance cybersecurity by detecting hidden data exfiltration techn
    * Accuracy, Precision, Recall, F1-score
    * Confusion Matrix
 
+<img width="734" height="361" alt="image" src="https://github.com/user-attachments/assets/71a8f39d-27a9-42fe-b5eb-5544e840b318" />
+
 ---
 
 ## 🏗️ System Design
@@ -136,28 +138,7 @@ Attacker → Covert Traffic Generation → Network Channel (ICMP | TCP | UDP | D
 ```
 
 ---
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-pip install -r requirements.txt
-```
-
 ---
-
-## ▶️ Usage
-
-```bash
-python src/training.py
-```
-
-For evaluation:
-
-```bash
-python src/evaluation.py
-```
 
 ---
 
@@ -166,6 +147,9 @@ python src/evaluation.py
 * Achieved high accuracy in detecting covert traffic
 * Successfully classified different steganography techniques
 * Demonstrated effectiveness of Transformer models in cybersecurity
+
+ <img width="1128" height="502" alt="image" src="https://github.com/user-attachments/assets/ed8fffe2-8fc7-40eb-9401-a9a9ef2debe5" />
+ 
 
 ---
 
@@ -189,7 +173,7 @@ python src/evaluation.py
 
 ## 👩‍💻 Author
 
-**Your Name**
+**Malaika Umbreen**
 BS Information Technology – Final Year
 Research Area: Cybersecurity & Artificial Intelligence
 
