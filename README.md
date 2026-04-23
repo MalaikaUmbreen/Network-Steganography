@@ -1,6 +1,6 @@
 # 🔍 A Transformer-Based Detector for Network Steganography
 
-## 📌 Overview
+##  Overview
 
 This project presents a deep learning–based approach to detect **network steganography** using a **Transformer architecture**. The system analyzes network traffic behavior and identifies covert communication hidden within standard protocols such as **ICMP, TCP, UDP, and DNS**.
 
@@ -12,7 +12,7 @@ The goal is to enhance cybersecurity by detecting hidden data exfiltration techn
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 * 🔹 Detection of covert network traffic
 * 🔹 Supports multiple protocols: **ICMP, TCP, UDP, DNS**
@@ -47,6 +47,13 @@ The goal is to enhance cybersecurity by detecting hidden data exfiltration techn
 
 <img width="1091" height="718" alt="image" src="https://github.com/user-attachments/assets/d719e807-da53-4a2f-afa4-93d6833708a8" />
 
+3. **Feature Categorization**
+
+   * Three Covert Techniques Features
+   * Header Manipulation, Flow Blending , Timing Obfuscation
+   * 225 Input features total
+   * Three labels (label_technique, label_protocol , label_binary)
+     
 <img width="1092" height="725" alt="image" src="https://github.com/user-attachments/assets/3a68f9f3-61c7-4faa-bbe2-f427da5ce9aa" />
 
 
@@ -89,7 +96,7 @@ Attacker → Covert Traffic Generation → Network Channel (ICMP | TCP | UDP | D
 
 ---
 
-## 📊 Dataset Details
+## Dataset Details
 
 * Total Features: **228**
 
@@ -106,15 +113,16 @@ Attacker → Covert Traffic Generation → Network Channel (ICMP | TCP | UDP | D
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-* Python 🐍
+* Python 
 * PyTorch / TensorFlow
 * Scikit-learn
 * Wireshark
+* kali-linux
+* Ubuntu-VM
 * Scapy (Packet manipulation)
 * NumPy & Pandas
-
 
 
 ---
@@ -153,7 +161,7 @@ Attacker → Covert Traffic Generation → Network Channel (ICMP | TCP | UDP | D
 
 ---
 
-## 🔐 Applications
+## Applications
 
 * Network Intrusion Detection Systems (NIDS)
 * Security Operations Centers (SOC)
@@ -162,16 +170,17 @@ Attacker → Covert Traffic Generation → Network Channel (ICMP | TCP | UDP | D
 
 ---
 
-## 📚 Future Work
+## Future Work
 
 * Real-time deployment in SOC environments
 * Integration with SIEM tools (e.g., Wazuh)
 * Hybrid models (CNN + Transformer)
 * Larger real-world datasets
+* More Covert techniques used
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Malaika Umbreen**
 BS Information Technology – Final Year
@@ -181,6 +190,6 @@ Research Area: Cybersecurity & Artificial Intelligence
 
 ## 📜 License
 
-This project is for academic and research purposes.
+This project is for Academic and Research purposes.
 
 ---
