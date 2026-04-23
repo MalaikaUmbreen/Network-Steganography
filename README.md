@@ -27,7 +27,7 @@ The goal is to enhance cybersecurity by detecting hidden data exfiltration techn
 
 ---
 
-## 🧠 Project Architecture
+## Project Architecture
 
 ### 🔄 Workflow
 
@@ -57,7 +57,7 @@ The goal is to enhance cybersecurity by detecting hidden data exfiltration techn
 <img width="1092" height="725" alt="image" src="https://github.com/user-attachments/assets/3a68f9f3-61c7-4faa-bbe2-f427da5ce9aa" />
 
 
-3. **Preprocessing Pipeline**
+4. **Preprocessing Pipeline**
 
    * Data Cleaning (remove duplicates, missing values)
    * Feature Scaling (StandardScaler)
@@ -68,7 +68,7 @@ The goal is to enhance cybersecurity by detecting hidden data exfiltration techn
 <img width="1088" height="715" alt="image" src="https://github.com/user-attachments/assets/532a012d-a84b-4ad9-9505-d82c281f12fb" />
      
 
-4. **Model Development**
+5. **Model Development**
 
    * Transformer-based architecture
    * Multi-head attention mechanism
@@ -77,7 +77,7 @@ The goal is to enhance cybersecurity by detecting hidden data exfiltration techn
 <img width="1320" height="1860" alt="image" src="https://github.com/user-attachments/assets/7b1cd56e-9aa8-45db-b3cd-c799f7de9d55" />
 
 
-5. **Evaluation**
+6. **Evaluation**
 
    * Accuracy, Precision, Recall, F1-score
    * Confusion Matrix
@@ -99,6 +99,10 @@ Attacker → Covert Traffic Generation → Network Channel (ICMP | TCP | UDP | D
 ## Dataset Details
 
 * Total Features: **228**
+
+
+<img width="572" height="148" alt="image" src="https://github.com/user-attachments/assets/d5e407de-5e27-4adc-ab16-fe8d0a114c32" />
+
 
   * Input Features: **225**
   * Label Columns: **3**
