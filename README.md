@@ -7,7 +7,7 @@ This project presents a deep learning–based approach to detect **network stega
 The goal is to enhance cybersecurity by detecting hidden data exfiltration techniques that bypass traditional security mechanisms.
 
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/92a7f334-8dbc-41f2-b12f-4e7cddc74ebe" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9540f4ca-028e-4fea-b314-f09bb0d9e9ab" />
 
 
 ---
@@ -92,7 +92,9 @@ The goal is to enhance cybersecurity by detecting hidden data exfiltration techn
 
 Attacker → Covert Traffic Generation → Network Channel (ICMP | TCP | UDP | DNS) → Organization Network → SOC Monitoring → Transformer-Based Detector → Output (Normal / Covert + Technique Classification)
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9540f4ca-028e-4fea-b314-f09bb0d9e9ab" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/92a7f334-8dbc-41f2-b12f-4e7cddc74ebe" />
+
+
 
 ---
 
