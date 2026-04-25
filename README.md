@@ -4,10 +4,22 @@
 
 This project presents a deep learning–based approach to detect **network steganography** using a **Transformer architecture**. The system analyzes network traffic behavior and identifies covert communication hidden within standard protocols such as **ICMP, TCP, UDP, and DNS**.
 
+
+<div align="center">
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-00C176?style=for-the-badge)
+![Paper](https://img.shields.io/badge/Paper-Under_Review-orange?style=for-the-badge)
+A Transformer-Based Detector for Network Steganography with Improved Generalization
+Final Year Project — Air University, Islamabad · Supervisor: Dr. Zunera Jalil
+</div>
+
 The goal is to enhance cybersecurity by detecting hidden data exfiltration techniques that bypass traditional security mechanisms.
 
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9540f4ca-028e-4fea-b314-f09bb0d9e9ab" />
+
 
 
 ---
@@ -118,8 +130,9 @@ Attacker → Covert Traffic Generation → Network Channel (ICMP | TCP | UDP | D
 <img width="544" height="364" alt="image" src="https://github.com/user-attachments/assets/c053c809-0d3b-4fc7-906b-7ad49765b8f2" />
 
 ---
-
-#Network-Steganography/
+📁 Repository Structure
+```
+Network-Steganography/
 │
 ├── 3_levels_Protocol_wise_Dataset/     # Labeled network traffic datasets
 │   ├── DNS/
@@ -176,6 +189,8 @@ Attacker → Covert Traffic Generation → Network Channel (ICMP | TCP | UDP | D
 │
 ├── LICENSE
 └── README.md
+```
+
 ---
 
 ---
