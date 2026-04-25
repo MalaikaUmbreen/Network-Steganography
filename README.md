@@ -119,41 +119,84 @@ Attacker → Covert Traffic Generation → Network Channel (ICMP | TCP | UDP | D
 
 ---
 
-## Technologies Used
-
-* Python 
-* PyTorch / TensorFlow
-* Scikit-learn
-* Wireshark
-* kali-linux
-* Ubuntu-VM
-* Scapy (Packet manipulation)
-* NumPy & Pandas
-
-
+#Network-Steganography/
+│
+├── 3_levels_Protocol_wise_Dataset/     # Labeled network traffic datasets
+│   ├── DNS/
+│   │   ├── dns_covert_labeled.csv
+│   │   └── dns_normal_labeled.csv
+│   ├── ICMP/
+│   │   ├── icmp_covert_labeled.csv
+│   │   └── icmp_normal_labeled.csv
+│   ├── TCP/
+│   │   ├── tcp_stego_labeled.csv
+│   │   └── tcp_normal_labeled.csv
+│   └── UDP/
+│       ├── udp_covert_labeled.csv
+│       └── udp_normal_labeled.csv
+│
+├── Covert_Scripts/                     # Scripts used to generate covert traffic
+│   ├── ICMP_Covert_script.py
+│   ├── TCP_Covert_script.py
+│   └── UDP__Covert_script.py
+│
+├── Flow_Features_Technique_Wise/       # Feature descriptions per protocol
+│   ├── DNS Flow Features.txt
+│   ├── ICMP Flow features.txt
+│   ├── TCP Flow features.txt
+│   └── UDP Flow features.txt
+│
+├── Images/                             # Architecture diagrams & result charts
+│   ├── Full Architecture_.jpg
+│   ├── System-Design.png
+│   ├── Feature Categorization_.jpg
+│   ├── Datasetgeneration.png
+│   ├── Preprocessing.png
+│   ├── loto_accuracy_chart.png
+│   └── loto_confusion_matrices.png
+│
+├── Literature_Review/                  # Related work & references
+│
+├── Model_Training_Documentation/       # Training & preprocessing documentation
+│   ├── Dataset_Generation_Complete_.pdf
+│   ├── FINAL_Preprocessing_Thesis_C...
+│   ├── Multi_Protocol_Preprocessing_.pdf
+│   ├── Dataset_Combining_Details.pdf
+│   └── Thesis_Testing_Chapter.docx
+│
+├── Protocol_Wise_Dataset_Info/         # Feature documentation per protocol
+│   ├── DNS- Features Description.docx
+│   ├── ICMP_Features_Summary_Table.xlsx
+│   ├── Normal vs DNS Covert Features.docx
+│   └── ICMP-TCP-UDP Table-Wise Techniques.docx
+│
+├── Tools_Wise_Dataset_Comparison/      # Tool-by-tool dataset analysis
+│   ├── DNS-&-IPV6-tools.docx
+│   └── UDP-ICMP-tools-from-dataset.docx
+│
+├── LICENSE
+└── README.md
 ---
 
-## 📂 Project Structure
-
-```
-├── data/
-│   ├── raw/
-│   ├── processed/
-├── notebooks/
-├── models/
-├── src/
-│   ├── preprocessing.py
-│   ├── model.py
-│   ├── training.py
-│   └── evaluation.py
-├── results/
-├── diagrams/
-├── README.md
-```
-
 ---
+🌐 Web Application + Agentic AI Analyst
+Feature	Description
+📤 Real Time 	PCAPs network capture files
+⚡ Inference	Real-time Transformer detection at 3.8ms/sample
+📊 Output	Binary · Technique · Protocol classification
+🗺️ Heatmaps	Attention weight visualizations for forensic analysis
+🤖 Agentic AI	Autonomously writes SOC incident reports & recommends mitigations
 ---
 
+---
+🛠️ Tech Stack
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Scapy](https://img.shields.io/badge/Scapy-009688?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ---
 
 ## 📈 Results
