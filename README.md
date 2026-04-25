@@ -16,11 +16,6 @@
 
 ---
 
-## 📌 Overview
-
-This project presents a deep learning–based approach to detect **network steganography** using a **Transformer architecture**. The system analyzes network traffic behavior and identifies covert communication hidden within standard protocols such as **ICMP, TCP, UDP, and DNS**.
-
-The goal is to enhance cybersecurity by detecting hidden data exfiltration techniques that bypass traditional security mechanisms.
 ##  Overview
 
 This project presents a deep learning–based approach to detect **network steganography** using a **Transformer architecture**. The system analyzes network traffic behavior and identifies covert communication hidden within standard protocols such as **ICMP, TCP, UDP, and DNS**.
