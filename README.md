@@ -12,7 +12,7 @@ This project presents a deep learning–based approach to detect **network stega
 ![Status](https://img.shields.io/badge/Status-Completed-00C176?style=for-the-badge)
 ![Paper](https://img.shields.io/badge/Paper-Under_Review-orange?style=for-the-badge)
 A Transformer-Based Detector for Network Steganography with Improved Generalization
-Final Year Project — Air University, Islamabad · Supervisor: Dr. Zunera Jalil
+
 </div>
 
 The goal is to enhance cybersecurity by detecting hidden data exfiltration techniques that bypass traditional security mechanisms.
@@ -193,15 +193,13 @@ Network-Steganography/
 
 ---
 
----
 🌐 Web Application + Agentic AI Analyst
 Feature	Description
-📤 Real Time 	PCAPs network capture files
+📤 Real Time	PCAPs network capture files
 ⚡ Inference	Real-time Transformer detection at 3.8ms/sample
 📊 Output	Binary · Technique · Protocol classification
 🗺️ Heatmaps	Attention weight visualizations for forensic analysis
 🤖 Agentic AI	Autonomously writes SOC incident reports & recommends mitigations
----
 
 ---
 🛠️ Tech Stack
