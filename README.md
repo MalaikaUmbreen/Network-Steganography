@@ -191,8 +191,6 @@ Network-Steganography/
 └── README.md
 ```
 
----
-
 🌐 Web Application + Agentic AI Analyst
 Feature	Description
 📤 Real Time	PCAPs network capture files
