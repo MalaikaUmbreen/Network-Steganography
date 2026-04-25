@@ -1,19 +1,29 @@
 # 🔍 A Transformer-Based Detector for Network Steganography
 
-##  Overview
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Status-Completed-00C176?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Paper-Under_Review-orange?style=for-the-badge"/>
+
+**A Transformer-Based Detector for Network Steganography with Improved Generalization**
+
+*Final Year Project — UNIVERSITY OF CHAKWAL*
+
+</div>
+
+---
+
+## 📌 Overview
 
 This project presents a deep learning–based approach to detect **network steganography** using a **Transformer architecture**. The system analyzes network traffic behavior and identifies covert communication hidden within standard protocols such as **ICMP, TCP, UDP, and DNS**.
 
+The goal is to enhance cybersecurity by detecting hidden data exfiltration techniques that bypass traditional security mechanisms.
+##  Overview
 
-<div align="center">
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-00C176?style=for-the-badge)
-![Paper](https://img.shields.io/badge/Paper-Under_Review-orange?style=for-the-badge)
-A Transformer-Based Detector for Network Steganography with Improved Generalization
-
-</div>
+This project presents a deep learning–based approach to detect **network steganography** using a **Transformer architecture**. The system analyzes network traffic behavior and identifies covert communication hidden within standard protocols such as **ICMP, TCP, UDP, and DNS**.
 
 The goal is to enhance cybersecurity by detecting hidden data exfiltration techniques that bypass traditional security mechanisms.
 
@@ -190,15 +200,6 @@ Network-Steganography/
 ├── LICENSE
 └── README.md
 ```
-
-🌐 Web Application + Agentic AI Analyst
-Feature	Description
-📤 Real Time	PCAPs network capture files
-⚡ Inference	Real-time Transformer detection at 3.8ms/sample
-📊 Output	Binary · Technique · Protocol classification
-🗺️ Heatmaps	Attention weight visualizations for forensic analysis
-🤖 Agentic AI	Autonomously writes SOC incident reports & recommends mitigations
-
 ---
 🛠️ Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
